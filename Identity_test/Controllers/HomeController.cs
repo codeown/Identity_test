@@ -26,5 +26,13 @@ namespace Identity_test.Controllers
 
             return View();
         }
+
+        public ActionResult IndexTest()
+        {
+            Dictionary<string, object> data = new Dictionary<string, object>();
+            data.Add("Ключ", "Значение");
+
+            return View(data);
+        }
     }
 }
