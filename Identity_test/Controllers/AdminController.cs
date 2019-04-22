@@ -57,7 +57,7 @@ namespace Identity_test.Controllers
             }
         }
 
-        //-------------Delite Users
+        //-------------Delete Users
         [HttpPost]
         public async Task<ActionResult> Delete(string id)
         {
